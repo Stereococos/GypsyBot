@@ -65,6 +65,37 @@ current_lesson = progress.get("lesson", 1)
 st.markdown(f"**{lessons[current_lesson]['title']}**")
 st.markdown(lessons[current_lesson]['content'])
 
+st.markdown("### Lección 1 – Ejemplos de práctica")
+
+st.markdown("**Ejemplo de Comping**")
+st.audio("https://raw.githubusercontent.com/Stereococos/GypsyBot/main/lesson1_comping.wav")
+
+st.markdown("**Ejemplo de Línea Melódica**")
+st.audio("https://raw.githubusercontent.com/Stereococos/GypsyBot/main/lesson1_melody.wav")
+
+st.markdown("**Backing Track**")
+st.audio("https://raw.githubusercontent.com/Stereococos/GypsyBot/main/lesson1_backing.wav")
+
+st.markdown("**Ver Tablatura**")
+st.text("""
+Lección 1 - II–V–I en Do mayor
+Comping:
+Dm7      G7       Cmaj7
+e|---5----3--------0---|
+B|---6----3--------0---|
+G|---5----4--------0---|
+D|---7----3--------2---|
+A|---5----5--------3---|
+E|---x----3--------x---|
+
+Ejemplo de línea melódica:
+e|--------------------|
+B|---5--6--8--10------|
+G|--------------------|
+D|--------------------|
+A|--------------------|
+E|--------------------|
+""")
 st.markdown("### Lesson 1 – Practice Examples")
 
 st.markdown("**Comping Example**")
