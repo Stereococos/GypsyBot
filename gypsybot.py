@@ -108,9 +108,7 @@ if user and st.button("Complete Lesson and Continue"):
 # ---------------------
 
 st.markdown("### Practice Metronome")
-bpm = st.slider("Select tempo (BPM)", min_value=60, max_value=160, value=85)
-if st.button("Play metronome"):
-    st.audio("https://actions.google.com/sounds/v1/alarms/beep_short.ogg")
+st.audio("https://gypsybot-metronome.s3.amazonaws.com/GypsyBot_Metronome_Public.wav")
 
 # ---------------------
 # COMPOSITION MODULE
