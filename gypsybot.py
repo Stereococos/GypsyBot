@@ -225,7 +225,7 @@ if user and st.button("Complete Lesson and Continue"):
 # ---------------------
 
 st.markdown("### Practice Metronome")
-st.audio("https://gypsybot-metronome.s3.amazonaws.com/GypsyBot_Metronome_Public.wav")
+# st.audio("https://actions.google.com/sounds/v1/alarms/beep_short.ogg")
 
 # ---------------------
 # COMPOSITION MODULE
