@@ -71,6 +71,23 @@ st.markdown(f"**{lessons[current_lesson]['title']}**")
 st.markdown("### Lesson 1 – Practice Examples")
 
 st.markdown("**Comping Example**")
+st.audio("lesson1_comping.wav")
+
+st.markdown("**Melodic Line Example**")
+st.audio("lesson1_melody.wav")
+
+st.markdown("**Backing Track**")
+st.audio("lesson1_backing.wav")
+
+st.markdown("**View Tablature**")
+st.text(open("lesson1_tab.txt", "r").read())
+# ---------------------
+# Lesson 1 – Practice Examples
+# ---------------------
+
+st.markdown("### Lesson 1 – Practice Examples")
+
+st.markdown("**Comping Example**")
 st.audio("https://raw.githubusercontent.com/Stereococos/GypsyBot/main/lesson1_comping.wav")
 
 st.markdown("**Melodic Line Example**")
