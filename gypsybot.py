@@ -230,7 +230,6 @@ st.markdown("### Practice Metronome")
 # ---------------------
 # COMPOSITION MODULE
 # ---------------------
-
 st.markdown("### Start a New Composition")
 
 style = st.selectbox("Choose a style:", ["Jazz", "Blues", "Gypsy Jazz"])
